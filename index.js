@@ -25,7 +25,7 @@ app.get("/issues", async (req, res) => {
     const jiraDomain = "dreamshack.atlassian.net";
     const username = "dreamshack1999@gmail.com";
     const apiToken =
-      "ATATT3xFfGF0MCRhCz_w_I6Yha0GCC5ChxT69hJG_ImlSllVQ9qikXUozofXGBCcwcG6fN8N80wDZOaTTJTFw7hiI6qkLCBB8nzsXQthByPihlhfBrYF1daQ_pPAieIucY4e4Z_VH5SXvHFLBWqO2EtnujVmP8Pq_9pQhSVRnQ5kvSwfQz22zys=E37CECEB";
+      " YOUR_API_TOKEN";
     const url = `https://${jiraDomain}/rest/api/2/search?jql=`;
     const auth = {
       username: username,
